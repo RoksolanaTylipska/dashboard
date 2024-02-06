@@ -1,0 +1,19 @@
+.menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 36px 28px 76px;
+
+  @media (min-width: 420px) {
+    min-width: 200px;
+    padding: 36px 28px 76px 15px;
+    gap: 65px;
+  }
+
+  @media (min-width: 1240px) {
+    min-width: 306px;
+    padding: 36px 28px 76px;
+    gap: 65px;
+  }
+}

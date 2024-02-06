@@ -1,0 +1,24 @@
+.manager {
+  display: flex;
+  gap: 12px;
+
+  @media (min-width: 420px) {
+    position: absolute;
+    bottom: 76px;
+  }
+}
+
+.manager__photo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.manager__name {
+  font-size: 14px;
+}
+
+.manager__position {
+  color: #757575;
+  font-size: 12px;
+}

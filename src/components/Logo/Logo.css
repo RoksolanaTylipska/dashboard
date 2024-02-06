@@ -1,0 +1,33 @@
+.logo {
+  display: flex;
+  height: 39px;
+  align-items: center;
+}
+
+.logo__text-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo__name {
+  font-size: 22px;
+  padding: 0 4px 0 8px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.26px;
+
+  @media (min-width: 420px) {
+    font-size: 26px;
+  }
+}
+
+.logo__version {
+  color: #838383;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.1px;
+}
