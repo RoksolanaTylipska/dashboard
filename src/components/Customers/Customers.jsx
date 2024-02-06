@@ -29,11 +29,11 @@ function Customers() {
   return ( 
     <article className='customers'>
       <section className='customers__container'>
-        <div>
+        <span>
           <h3 className='customers__title'>All Customers</h3>
           <p className='customers__text'>Active Members</p>
-        </div>
-        <div className='customers__input-container'>
+        </span>
+        <span className='customers__input-container'>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#7E7E7E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M21 21L16.65 16.65" stroke="#7E7E7E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -44,7 +44,7 @@ function Customers() {
             placeholder='Search'
             onChange={findCustomer}
             />
-        </div>
+        </span>
       </section>
 
       <section className='customers__table-container'>
@@ -86,7 +86,7 @@ function Customers() {
 
       <section className='customers__pagination'>
         <p className='customers__pagination-text'>Showing data 1 to 8 of 256K entries</p>
-          <div className='pagination'>
+          <span className='pagination'>
             <button className='pagination__button'>
               <svg width="5" height="7" viewBox="0 0 5 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2.936 6.392L0.176 3.668L2.936 0.944H4.664L1.892 3.668L4.664 6.392H2.936Z" fill="#404B52"/>
@@ -113,7 +113,7 @@ function Customers() {
                 <path d="M0.344 0.944H2.072L4.832 3.668L2.072 6.392H0.344L3.116 3.668L0.344 0.944Z" fill="#404B52"/>
               </svg>
             </button>
-          </div>
+          </span>
       </section>
     </article>
   );

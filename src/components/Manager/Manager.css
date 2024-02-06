@@ -1,4 +1,7 @@
 .manager {
+  box-sizing: border-box;
+  width: 155px;
+  height: 42px;
   display: flex;
   gap: 12px;
 

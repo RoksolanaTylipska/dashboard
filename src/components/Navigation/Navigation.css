@@ -1,6 +1,16 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  @media (min-width: 420px) {
+    gap: 18px;
+  }
+}
+
 .navigation__item {
-  margin: 7px;
-  padding: 0 8px 0 11px;
+  box-sizing: border-box;
+  padding: 11px 11px 11px 8px;
 
   display: flex;
   height: 46px;
@@ -11,7 +21,7 @@
   color: #9197B3;
 
   @media (min-width: 420px) {
-    margin: 11px;
+    padding: 11px 8px 11px 11px;
   }
 }
 
