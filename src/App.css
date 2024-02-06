@@ -1,6 +1,8 @@
 .App {
+  position: relative;
   display: flex;
   flex-direction: column;
+
 
   @media (min-width: 420px) {
     flex-direction: row;
